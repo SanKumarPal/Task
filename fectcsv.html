@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border: 2px solid maroon
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+
+        <input type="file" name="file">
+    </form>
+
+
+
+
+<table></table>
+<script src="fect.js"></script>
+
+
+
+
+
+
+
+
+
+    <!-- <script>
+        onload = fetch("tp.csv").then(res => {
+            return res.text()
+        }).then(data => {
+            let result = data.split(/\r?\n|\r/)
+                (e => {
+                    return e.split(",")
+                })
+            result.forEach(e => {
+                let m = e.map(e => {
+                    return '<td> ${e}</td>';
+                })
+                let ce = document.createElement("tr");
+                document.querySelector("table").appendChild(ce);
+
+                console.log(m);
+            })
+
+            
+        })
+    </script> -->
+</body>
+
+</html>
